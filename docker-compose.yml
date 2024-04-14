@@ -26,4 +26,9 @@ services:
       dockerfile: composer.dockerfile
     volumes:
       - ./src:/var/www/laravel
+#  npm:
+#    build:
 #composer создан для того, чтоб скачать laravel [docker-compose run composer create-project laravel/laravel .]
+
+#bash: docker exec -it puuuffanddooy-php-1 sh
+#npm:
