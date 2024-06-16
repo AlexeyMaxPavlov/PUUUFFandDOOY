@@ -6,10 +6,10 @@ use Illuminate\Support\Facades\Route;
 //    return view('welcome');
 //});
 
-Route::get('/', function (){
-    return view('home');
-});
+//Route::get('/', function (){
+//    return view('home');
+//});
 
-//Route::get('/', action('Controller@home'));
+Route::get('/', action ('MainController@home'));
 
 
